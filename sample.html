@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Launchpad</title>
+    <style>
+        body {
+            background-color: #0A1931; /* Dark blue background */
+            color: #F4A261; /* Light orange text color */
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            font-size: 3em;
+            margin-top: 100px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            animation: colorchange 10s infinite alternate; /* Animation for color change */
+        }
+        p {
+            font-size: 1.5em;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+
+        @keyframes colorchange {
+            0% { color: #F4A261; } /* Light orange */
+            25% { color: #2A9D8F; } /* Green */
+            50% { color: #E9C46A; } /* Yellow */
+            75% { color: #F4A261; } /* Light orange */
+            100% { color: #E76F51; } /* Reddish orange */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to Launchpad</h1>
+        <p>Explore a new universe of creativity and innovation!</p>
+    </div>
+</body>
+</html>
